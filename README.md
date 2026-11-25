@@ -1,12 +1,12 @@
-# Semana 1: Fundamentos de Reinforcement Learning y Proyecto 1 (`CartPole-v1`)
+# Fundamentos de Reinforcement Learning y Proyecto 1 (`CartPole-v1`)
 
-Repositorio correspondiente a la **Semana 1** de mi portafolio de **Reinforcement Learning**, centrado en los fundamentos del aprendizaje por refuerzo clásico y profundo, y culminado con el entrenamiento y ajuste de un agente **PPO** en `CartPole-v1` utilizando **Gymnasium** y **Stable-Baselines3**.
+Repositorio correspondiente a la primera etapa de un itinerario de aprendizaje de **Reinforcement Learning**, centrado en los fundamentos del aprendizaje por refuerzo clásico y profundo, y culminado con el entrenamiento y ajuste de un agente **PPO** en `CartPole-v1` utilizando **Gymnasium** y **Stable-Baselines3**.
 
-## Resumen de la semana
+## Resumen
 
-A lo largo de esta semana he trabajado desde el enfoque tabular hasta métodos basados en redes neuronales profundas y optimización de políticas:
+A lo largo de esta fase he trabajado desde métodos basados en tablas Q hasta métodos basados en redes neuronales profundas y optimización de políticas:
 
-- **Control tabular (`Q-Learning`):** comprensión del bucle agente-entorno, actualización por diferencia temporal (*TD*), equilibrio exploración-explotación ($\epsilon$-greedy) y limitaciones de discretizar espacios continuos.
+- **`Q-Learning`:** comprensión del bucle agente-entorno, actualización por diferencia temporal (*TD*), equilibrio exploración-explotación ($\epsilon$-greedy) y limitaciones de las tablas Q cuando el espacio de estados crece o es continuo.
 - **Deep Q-Network (`DQN`):** aproximación de la función de valor acción-estado con redes neuronales y visualización del comportamiento aprendido.
 - **Proyecto 1 (`PPO` en `CartPole-v1`):** entrenamiento de un agente `PPO` (`MlpPolicy`) y comparación de configuraciones de hiperparámetros (`learning_rate` y `n_steps`).
 
