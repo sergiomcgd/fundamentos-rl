@@ -13,7 +13,7 @@ A lo largo de esta fase he trabajado desde métodos basados en tablas Q hasta m�
 ## Estructura del repositorio
 
 ```text
-semana-01-fundamentos-rl/
+fundamentos-rl/
 ├── .gitignore
 ├── README.md
 ├── Q-Learning/
@@ -52,7 +52,7 @@ Transición de tablas $Q$ a redes neuronales para estimar valores $Q(s, a)$ en `
 - Captura visual del agente entrenado en `cartpole_dqn.gif`.
 
 ### 3. `Project/CartPole_PPO.ipynb`
-Proyecto práctico de la semana con **Stable-Baselines3** (`PPO` con `MlpPolicy`) en `CartPole-v1`, evaluando distintas combinaciones de tasa de aprendizaje y horizonte de rollout:
+Proyecto práctico con **Stable-Baselines3** (`PPO` con `MlpPolicy`) en `CartPole-v1`, evaluando distintas combinaciones de tasa de aprendizaje y horizonte de rollout:
 - `lr = 1e-3`, `n_steps = 512`
 - `lr = 3e-4`, `n_steps = 2048`
 - `lr = 1e-4`, `n_steps = 4096`
@@ -79,7 +79,7 @@ Por higiene del repositorio y tamaño de archivos, `.gitignore` excluye carpetas
 
 ## Referencias y recursos consultados
 
-Material de referencia de la Semana 1 utilizado como guía conceptual y práctica:
+Material de referencia utilizado como guía conceptual y práctica:
 
 - **OpenAI Spinning Up in Deep RL:** [spinningup.openai.com](https://spinningup.openai.com)
 - **Gymnasium Documentation & GeeksforGeeks (Q-Learning):** fundamentos del bucle agente-entorno y control tabular
